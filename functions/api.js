@@ -1,6 +1,7 @@
 const express = require("express");
 const serverless = require("serverless-http");
 const nodeMailer = require("nodemailer");
+const path = require("path");
 const app = express();
 
 async function main(email, subject, html) {
@@ -27,9 +28,9 @@ async function main(email, subject, html) {
 app.use(express.json());
 app.use(express.static("dist"));
 
-
 app.set("view engine", "ejs");
 app.engine("ejs", require("ejs").__express);
+app.set("views", path.join(__dirname, "/dist"));
 
 app.get("/", (req, res) => {
     res.render("index");
