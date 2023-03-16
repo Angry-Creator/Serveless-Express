@@ -24,11 +24,11 @@ async function main(email, subject, html) {
 
 }
 
-main()
-    .catch(error => console.log(error));
-
 app.use(express.json());
 app.use(express.static("dist"));
+
+
+app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
     res.render("index");
