@@ -29,6 +29,7 @@ app.use(express.static("dist"));
 
 
 app.set("view engine", "ejs");
+app.engine("ejs", require("ejs").__express);
 
 app.get("/", (req, res) => {
     res.render("index");
