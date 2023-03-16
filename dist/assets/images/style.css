@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first{
+background: url(https://images.ctfassets.net/ao073xfdpkqn/5pNFR1PZXz1ihYVw3WQrg2/cd1ad5dbef39b75f4ab3ebcd4bc7f9d4/dark-colorful-booklets-2400x1600.jpg?w=1200&h=800&fm=avif);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ width: 100%; 
+border-bottom-right-radius: 100px;
+
+}
+.third{
+background: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?size=626&ext=jpg&ga=GA1.2.329674883.1673356560&semt=ais);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ width: 100%; 
+border-bottom-right-radius: 100px;
+
+}
+
+.first p{
+    max-width: 480px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.first button{
+    border: none;
+    cursor: pointer;
+
+}
+
+.first button:hover{
+    background-color: rgb(252, 252, 252);
+    transition: 0.3s ease-in-out;
+}
+.third h3{
+font-size: 30px;
+font-weight: 700;
+color:  rgb(87, 118, 255);
+}
+.fourth h3{
+font-size: 30px;
+font-weight: 700;
+color:  rgb(87, 118, 255);
+}
+
+.third h3::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    top: 800px;
+    right: 950px;
+
+    background-color: rgb(87, 118, 255);
+    width: 200px;
+}
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.sixth{
+    background: linear-gradient(90deg, rgba(255,213,210,1) 0%, rgba(67,57,205,1) 31%, rgba(218,218,218,1) 93%, rgba(233,235,202,1) 100%, rgba(219,219,219,1) 100%);;
+
+}
+.sixth p{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 800;
+}
+.special2:hover{
+    transform: scale(1.06);
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+
+}
+#special3:hover{
+    transform: scale(1.06);
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+
+
+}
+#special4:hover{
+    transform: scale(1.06);
+    border-radius: 50%;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+
+
+}
+
+@media(max-width:768px){
+    nav ul{
+        padding-top: 30px;
+    }
+}
+
+@media(min-width:768px){
+    .second{
+        background-color: rgba(32, 32, 32, 0.5);
+        max-width: 550px;
+padding: 30px;
+        margin: 0 auto;
+        
+    }
+    #special{
+        position: relative;
+        left: 90px;
+    }
+    .sixth p{
+        width: 70%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        position: relative;
+        left: 50px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    
+}

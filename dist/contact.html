@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A vetures printing.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+        integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Remix Icon-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--Importing Montserat Font from google font. 300, 400, 500, 600, 800-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./dist/assets/style/index.css">
+    <link rel="stylesheet" href="./dist/assets/style/contact.css">
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid d-flex">
+            <header class="overflow-hidden d-flex justify-content-center align-items-center flex-grow-1 flex-lg-grow-0">
+                <img src="./dist/assets/images/1678299856452.jpg" alt="">
+            </header>
+            <div
+                class="onsmall-device d-flex flex-row justify-content-around align-items-center flex-grow-1 py-2 d-lg-none flex-wrap">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="ri-menu-line fs-2 custom-icon menu-icon"></span>
+                </button>
+                <div class="d-sm-block d-lg-none service-nav">
+                    <a href="#">SERVICE</a>
+                </div>
+                <div class="d-sm-block d-lg-none contact-nav">
+                    <a href="./contact.html">CONTACT</a>
+                </div>
+                <div class="d-sm-block d-lg-none phone-nav">
+                    <span class="ri-phone-line fs-3 custom-icon"></span>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav d-lg-flex justify-content-between flex-grow-1 px-2">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="/index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="#">SERVICE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 active" href="./contact.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Contact Section-->
+    <section class="overflow-hidden">
+        <div class="d-flex flex-column py-3 py-lg-5" id="contact-page-header">
+            <span class="display-3 fw-bold text-center my-3 text-light">Contact us</span>
+            <span class="fs-4 text-center text-light d-none d-lg-block">We’re experts and happy to help.</span>
+        </div>
+        <span class="d-block display-3 text-center fw-bold py-4">Email Us</span>
+        <form class="px-3 px-lg-5">
+            <div class="mb-3">
+                <label class="form-label mb-2">Your Name (required) </label>
+                <input id="name" type="text" class="form-control py-3" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label mb-2">Email (required) </label>
+                <input id="email" type="email" class="form-control py-3" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label mb-2">Subject </label>
+                <input id="subject" type="text" class="form-control py-3" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label mb-2">Your Message </label>
+                <textarea id="message" class="form-control"></textarea>
+            </div>
+            <span class="mb-2 d-flex flex-wrap"> Would you like to sign up to the London Printing Company mailing
+                list?</span>
+            <div class="d-flex align-items-center">
+                <input id="subscribe" type="checkbox" />
+                <label class="ms-3">Yes, Please</label>
+            </div>
+            <div class="mt-2 mb-3">
+                <button class="btn entry-board-btn px-5 py-3 text-light" id="sendBtn">SEND</button>
+            </div>
+        </form>
+    </section>
+
+    <!--Foooter-->
+    <!--Last Article-->
+    <article class="container d-lg-flex px-lg-0 py-5 justify-content-lg-between ">
+        <div class="d-flex flex-column">
+            <span class="fs-3 fw-bold mb-2 ">About US</span>
+            <hr>
+            <span class="my-2"><a href="" style="text-decoration: none; color: black;"> Finishing</a></span>
+            <span class="my-1"><a href="" style="text-decoration: none; color: black;">Printing</a></span>
+            <span class="mt-0">Car branding</span>
+            <span class="my-1">Bill board branding</span>
+            <span class="my-1">Co-operate gift items</span>
+            <span class="my-1">Stationery branding</span>
+        </div>
+        <div class="d-flex flex-column">
+            <span class="fs-3 fw-bold mb-2">Contact us</span>
+            <span class="mt-5"><a href="">09041597021</a></span>
+            <span class="my-2">08098071946</span>
+            <span class="my-2">Whatsapp(09041597021)</span>
+            <span class="my-2">herr.wild2014@gmail.com</span>
+        </div>
+        <div class="d-flex flex-column">
+            <span class="fs-3 fw-bold mb-2">Our clients</span>
+            <hr>
+            <span class="mt-5"><a href="" style="text-decoration: none; color: black;">Unilever East & West
+                    Africa</a></span>
+            <span class="mt-1"><a href="" style="text-decoration: none; color: black;">CFAO Group-with West
+                    Africa</a></span>
+            <span class="mt-1"><a href="" style="text-decoration: none; color: black;">Enlangerzainindustries</a></span>
+            <span class="mt-1"><a href="" style="text-decoration: none; color: black;">Home-Royal Exchange general
+                    insurance</a></span>
+            <span class="mt-1"><a href="" style="text-decoration: none; color: black;">Unic Insurance PLC</a></span>
+            <span class="mt-1"><a href="" style="text-decoration: none; color: black;"></a></span>
+            <span class="mt-1"><a href="" style="text-decoration: none; color: black;">Unilever East & West
+                    Africa</a></span>
+
+        </div>
+    </article>
+    <!--Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./dist/assets/js/contact.js"></script>
+</body>
+
+</html>
