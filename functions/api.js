@@ -30,7 +30,7 @@ app.use(express.static("dist"));
 
 app.set("view engine", "ejs");
 app.engine("ejs", require("ejs").__express);
-app.set("views", path.join(__dirname, "/dist"));
+app.set("views", path.join(path.join("..", `${__dirname}`), "/dist"));
 
 app.get("/", (req, res) => {
     res.render("index");
